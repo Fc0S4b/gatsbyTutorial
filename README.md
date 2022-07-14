@@ -1,9 +1,10 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<h1 align="center">This is a tutorial project from John Smilga's course on <a href='https://www.udemy.com/share/101XUA3@KHGJoA1Zt5_Z7sX-wrFXwTemOGELw4bNhAym5bEEwkgSNhusqWbAlc-Citt12iAXJQ==/'>udemy</a>. In this repo I practice fundamentals of gatsby v3</h1>
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
-</p>
+</p> 
 <h1 align="center">
   Gatsby's hello-world starter
 </h1>
