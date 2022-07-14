@@ -2,14 +2,14 @@ import React from "react"
 import Layout from "../components/Layout"
 import styled from "styled-components"
 
-const Error = () => {
+const Tags = () => {
   return (
     <Layout>
-      <h1>Error page</h1>
+      <h1>Tags page</h1>
     </Layout>
   )
 }
 
 const Wrapper = styled.section``
 
-export default Error
+export default Tags
