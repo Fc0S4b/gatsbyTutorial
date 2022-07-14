@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-import Navbar from "../components/Navbar"
+import Layout from "../components/Layout"
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <h1> Hello world!!!</h1>
+    <Layout>
+      <h1> home page</h1>
       <div>
         {/* no refresh page with Link */}
         <Link to="/about">about</Link>
@@ -15,6 +14,6 @@ export default function Home() {
       </div>
       {/* regular refresh with a link */}
       <a href="/about">regular link</a>
-    </div>
+    </Layout>
   )
 }
