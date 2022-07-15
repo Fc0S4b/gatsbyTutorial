@@ -1,19 +1,33 @@
 import React from "react"
 import styled from "styled-components"
-import big from "../assets/images/big.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 const Images = () => {
   return (
     <Wrapper>
-      {/* a pesar de que la imagen se modifica a 200px en gatsby se sigue enviando 2.5 mb para modificar esto, es necesario el plugin gatsby-image-plugin*/}
-      <img src={big} alt="food" />
-      <h2>gatsby image</h2>
+      <article>
+        <h4>constrained / default</h4>
+        <StaticImage
+          src="../assets/images/recipes/recipe-1.jpeg"
+          alt="food"
+          height={400}
+          placeholder="tracedSVG"
+          layout="constrained"
+          className="example-img"
+          as="section"
+        />
+      </article>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.section`
-  img {
-    width: 200px;
+  width: 70vw;
+  margin: 0 auto;
+  article {
+    border: 2px solid red;
+  }
+  .example-img {
+    border-radius: 1rem;
   }
 `
 export default Images
