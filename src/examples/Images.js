@@ -35,7 +35,6 @@ const Images = () => {
           alt="food"
           placeholder="domminantColor"
           layout="fullWidth"
-          width={200}
           className="example-img"
           as="article"
           // height={600} fullwidth no lleva este parámetro
