@@ -13,6 +13,7 @@ const Images = () => {
           layout="constrained"
           className="example-img"
           as="section"
+          // height={300}
         />
       </article>
       <article>
@@ -22,7 +23,6 @@ const Images = () => {
           alt="food"
           placeholder="blurred"
           layout="fixed"
-          height={600}
           width={200}
           className="example-img"
           as="div"
@@ -38,6 +38,7 @@ const Images = () => {
           width={200}
           className="example-img"
           as="article"
+          // height={600} fullwidth no lleva este parámetro
         />
       </article>
     </Wrapper>
@@ -55,9 +56,13 @@ const Wrapper = styled.section`
   }
   .example-img {
     border-radius: 1rem;
+    height: 300px;
   }
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr 1fr;
+    .example-img {
+      height: 200px;
+    }
   }
 `
 export default Images
