@@ -1,8 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
+// se debe hacer gatsby clean al escribir query ya que da errores de cache. query names deben ser únicos (FirstQuery) si no da error por conflicto de nombres al usarlo mas de una vez
 const getData = graphql`
-  {
+  query FirstQuery {
     site {
       info: siteMetadata {
         author
