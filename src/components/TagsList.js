@@ -1,6 +1,7 @@
 import React from "react"
-
-const TagsList = () => {
+import setupTags from "../utils/setupTags"
+const TagsList = ({ recipes }) => {
+  const newTags = setupTags(recipes)
   return <div>TagsList</div>
 }
 
