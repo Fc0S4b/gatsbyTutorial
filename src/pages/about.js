@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import RecipesList from "../components/RecipesList"
+
 const About = ({
   data: {
     allContentfulRecipe: { nodes: recipes },
@@ -13,14 +14,14 @@ const About = ({
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>I'm baby selvage shabby chic farm-to-table,</h2>
+            <h2>I'm baby selvage shabby chic farm-to-table</h2>
             <p>
               Taxidermy forage glossier letterpress heirloom before they sold
               out you probably haven't heard of them banh mi biodiesel chia.
             </p>
             <p>
               Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
-              retro
+              retro.
             </p>
             <Link to="/contact" className="btn">
               contact
